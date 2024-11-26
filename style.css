@@ -1,0 +1,213 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#header {
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #070F18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#menu {
+    text-align: right;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 49px;
+}
+a {
+    color: #070F18;
+    text-decoration: none;
+}
+#buttonCta {
+    background-color: #1F7CFF;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+}
+#headerCta p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+#headerCta h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: #000000;
+}
+#headerImg {
+    margin-left: 42px;
+}
+#headerImg img {
+    width: 100%;
+}
+.headerLogo {
+    text-align: center;
+    margin-top: 18px;
+
+}
+#headerClients {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#headreClientText {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #070F18;
+}
+h2.red {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #F75C4E; 
+}
+h1.black {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000; 
+    margin-top: 0;
+}
+.textCenter {
+    text-align: center;
+}
+#services .textCenter p {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+#services .textCenter h3 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070F18;
+}
+#services {
+    margin-top: 40px;
+}
+#contact {
+    margin-top: 100px;
+}
+#contactImg img {
+    width: 100%;
+}
+#contactFomr {
+    margin-left: 75px;
+    margin-top: 60px;
+}
+#contactFomr h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: #000000;
+}
+#contactFomr p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+#contactFomr h2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F75C4E;
+}
+#contactFomr input {
+    background: #F5F6FB;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    border: 0;
+    width: 70%;
+    padding: 15px 30px 15px 30px;
+}
+#contactFomr button {
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    border: 0;
+    padding: 15px 30px 15px 30px;
+}
+#portfolioTitle {
+    margin-top: 150px;
+}
+#portfolioTitle h2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F75C4E;
+}
+#portfolioTitle h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: left;
+    color: #000000;
+}
+.portfolioImg {
+    width: 100%;
+    padding: 10px;
+}
